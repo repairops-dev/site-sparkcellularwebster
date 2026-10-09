@@ -116,3 +116,6 @@ details p { color: var(--muted); margin: 10px 0 0; }
 .domain-line { background: var(--soft); border-bottom: 1px solid var(--line); font-size: 14px; color: var(--muted); }
 .domain-line .wrap { padding-top: 7px; padding-bottom: 7px; text-align: center; }
 .hero-art img { aspect-ratio: 1100 / 629; object-fit: cover; }
+
+/* Keep header call button text white */
+.nav a.btn, .nav a.btn:hover { color: #fff; }
